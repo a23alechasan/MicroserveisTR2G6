@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dall_e_2025_01_05_23_10_06___a_logo_design_of_an_adjustable_wrench__spanner__in_a_minimalist_and_modern_style__the_wrench_should_have_a_sleek__clean_design__with_sharp_lines_and_a"
+        android:label="Manager TR2"
+        android:roundIcon="@drawable/dall_e_2025_01_05_23_10_06___a_logo_design_of_an_adjustable_wrench__spanner__in_a_minimalist_and_modern_style__the_wrench_should_have_a_sleek__clean_design__with_sharp_lines_and_a"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjecteMicroserveis"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ProjecteMicroserveis">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>
